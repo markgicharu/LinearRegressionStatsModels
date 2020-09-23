@@ -49,4 +49,11 @@ Number of Observations - 203
 #### Results from the plotted graph showing a summary of the final prediction
 <img src='https://raw.githubusercontent.com/markgicharu/LinearRegressionStatsModels/master/images/final_plot_dpi.jpg'>
 
-
+## Summary
+-We are trying to predict private domestic investment based on government expenditure and investment.
+-We can see the prediction values of private domestic investment **somewhat** matches the curve of the actual government expenditure.
+-There are varying **dips** in private domestic investments where there is a **spike** in actual government expenses.
+-From the **2002 Dot-Com Bubble and the  2008 financial crash,** there was a great dip in private domestic investment. Hpwever, Government Expenditure and Investments rallied on.
+-The prediction values **fail** to capture the varying dips as they are only considering the government investment and expenditure which had a subtle increase during that period.
+-The model is therefore **too Linear** in that it follows closely with its Independent X to predict the dependent Y inorder to get the values for the yhat.
+-The linear nature of the model cannot capture the **non-linear** nature of real-world events like the **2002 Dot-Com Bubble** and the **2008 Great Recession.**
