@@ -34,51 +34,19 @@ Number of Observations - 203
         infl      - Inflation rate (ln(cpi_{t}/cpi_{t-1}) * 400)
         realint   - Real interest rate (tbilrate - infl)
        
-  X = realgovt
-  y = realinv
+  X = realgovt <br>
+  y = realinv <br>
   
 #### What is the Correlation between this two variables?
 <img src='https://raw.githubusercontent.com/markgicharu/LinearRegressionStatsModels/master/images/heatmap.jpg'>
 
-From the high correlation of 0.79 we decide to perform a linear regression
+<h5>From the high correlation of 0.79 we decide to perform a linear regression</h5>
 
- Results from the stats model OLS Regression as a summary table
- OLS Regression Results                            
-==============================================================================
+### Results from the stats model OLS Regression as a summary table
+<img src='https://raw.githubusercontent.com/markgicharu/LinearRegressionStatsModels/master/images/OLS_Results.jpg'>
 
-Dep. Variable:                realinv
-R-squared:                       0.632
-Model:                            OLS  
-Adj. R-squared:                  0.630
-Method:                 Least Squares
-F-statistic:                     344.8
-Date:                Wed, 23 Sep 2020
-Prob (F-statistic):           1.78e-45
-Time:                        12:48:40  
-Log-Likelihood:                -1479.6
-No. Observations:                 203  
-AIC:                             2963
-Df Residuals:                     201   
-BIC:                             2970
-Df Model:                           1 
-Covariance Type:            nonrobust
 
-==============================================================================
-                 coef    std err          t      P>|t|      [0.025      0.975]
-------------------------------------------------------------------------------
-const      -1177.0037    120.558     -9.763      0.000   -1414.724    -939.284
-realgovt       3.3013      0.178     18.568      0.000       2.951       3.652
-
-==============================================================================
-Omnibus:                        8.118   Durbin-Watson:                   0.032
-Prob(Omnibus):                  0.017   Jarque-Bera (JB):                6.521
-Skew:                           0.342   Prob(JB):                       0.0384
-Kurtosis:                       2.449   Cond. No.                     3.27e+03
-
-==============================================================================
-
-Notes:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.<br>
-[2] The condition number is large, 3.27e+03. This might indicate that there are strong multicollinearity or other numerical problems.<br>
+#### Results from the plotted graph showing a summary of the final prediction
+<img = src='https://raw.githubusercontent.com/markgicharu/LinearRegressionStatsModels/master/images/final_plot_dpi.jpg'>
 
 
