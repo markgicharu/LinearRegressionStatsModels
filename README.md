@@ -47,6 +47,6 @@ Number of Observations - 203
 
 
 #### Results from the plotted graph showing a summary of the final prediction
-<img = src='https://raw.githubusercontent.com/markgicharu/LinearRegressionStatsModels/master/images/final_plot_dpi.jpg'>
+<img src='https://raw.githubusercontent.com/markgicharu/LinearRegressionStatsModels/master/images/final_plot_dpi.jpg'>
 
 
