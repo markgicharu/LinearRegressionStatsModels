@@ -45,6 +45,7 @@ Number of Observations - 203
 ### Results from the stats model OLS Regression as a summary table
 <img src='https://raw.githubusercontent.com/markgicharu/LinearRegressionStatsModels/master/images/OLS_Results.jpg'>
 
+<h5>The R2-squared of 0.63 means our data fits into the model about 63%. </h5>
 
 #### Results from the plotted graph showing a summary of the final prediction
 <img src='https://raw.githubusercontent.com/markgicharu/LinearRegressionStatsModels/master/images/final_plot_dpi.jpg'>
